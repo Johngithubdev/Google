@@ -119,25 +119,41 @@
       
     
     <!--Inicio Mapa-->
-      <div id="map" style="width:100%;background:black; height:70%"; padding-top:"2%"></div>
-      <script>
-          var map;
-          function initMap() {
-              map = new google.maps.Map(document.getElementById("map"), {
-                  zoom: 11,
-                  center:{ lat:  22.021412, lng: -100.892440 }
-
-              });
-
-              var market = new google.maps.Marker({
-                  position: { lat:  22.021412, lng: -100.892440 },
-                  map: map,
-                  title: "Hello World!",
-              });
-              
-          }
-
-      </script>
+    <div id="map" style="width:100%;background:black; height:70%"; padding-top:"2%"></div>
+    <script>
+       const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+       let labelIndex = 0;
+       var map;
+       
+       function initMap() {
+               map = new google.maps.Map(document.getElementById('map'), {
+                   center: { lat: 22.145283, lng: - 101.015192 },
+                   zoom: 13,
+               });
+               var marker = new google.maps.Marker({
+                   position: { lat: 22.145283, lng: - 101.015192 },
+                   map: map,
+                   title: 'Zona Universitaria'
+               });
+               var infowindow = new google.maps.InfoWindow({
+                   content: "<p>Coordenadas:" + marker.getPosition() + "</p>",
+               });
+                google.maps.event.addListener(map, "click", (event) => {
+                   addMarker(event.latLng, map);
+               });
+               addMarker(bangalore, map);
+           }   
+  
+          function addMarker(location, map) {
+               new google.maps.Marker({
+                   position: location,
+                   label: labels[labelIndex++ % labels.length],
+                   map: map,
+               });
+           }
+            
+          window.initMap = initMap;
+    </script>
       <!--Fin Mapa-->
       
       <Footer style="background-color: chartreuse;">
