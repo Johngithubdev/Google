@@ -12,42 +12,33 @@
   <body>
       <h1>Google API</h1>
       <!--codigo de navegador -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled">Disabled</a>
-                    </li>
-                  </ul>
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-                </div>
-              </div>
-   </nav>
+      <section>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                        <a class="navbar-brand" href="#">API</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li>
+                                <a class="nav-link active" aria-current="page" href="#">Información</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="https://uaslpedu.sharepoint.com/sites/DifusinEnero2023/_layouts/15/stream.aspx?id=%2Fsites%2FDifusinEnero2023%2FShared%20Documents%2FGeneral%2FRecordings%2FClase%2016%20Marzo%2D20230316%5F160527%2DGrabaci%C3%B3n%20de%20la%20reuni%C3%B3n%2Emp4" >Prueba</a>
+                            </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Ir</button>
+                            </form>
+                        </div>
+                        </div>
+            </nav>
+        </section>
 
       <!--fin de codigo navegador-->
 
@@ -87,10 +78,10 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <!--Caja1-->
       <div id="caja1">
-          
-            <div class="col"style ="background:#00ffff; padding:10px">
+      
+            <div class="col"style ="background:black; padding:10px">
               <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+               
                 <div class="card-body">
                   <form>
                     <div class="mb-3">
@@ -116,17 +107,49 @@
          <!--Fin de caja1-->
 
           <!--Caja2-->
-              <div class="col"style ="background:#00ffff; padding:10px">
+              <div class="col"style="width:100%;background:blueviolet; height:70%"; "padding:10px">
                 <div class="card">
-                  <img src="..." class="card-img-top" alt="...">
+                   <!--Caja tabla sql-->
+        <div class="col" style="background:#D3D3D3">
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Id</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+           </table>
+        </div>
+       <!--Caja tabla sql-->
                       <div class="card-body">
-                        <h5 class="card-title" style="background-color: blueviolet;">Titulos</h5>
-                          <p class="card-text">Contenedor para algo</p>
+                        <h5 class="card-title" >Mapa de Localización </h5>
+                          <p> Marzo 2023</p>
                     </div>
                 </div>
               </div>
-      </div>
-    </div>
+            </div>
+        </div>
 
     <!--Fin contenedores-->
       
@@ -191,7 +214,7 @@
     </script>
       <!--Fin Mapa-->
       
-      <Footer style="background-color: chartreuse;">
+      <Footer style="background-color: #D3D3D3">
         <p>Terminos de uso</p>
         <p>Derechos reservados</p>
        </Footer>
