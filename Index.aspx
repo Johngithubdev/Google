@@ -10,12 +10,12 @@
   </head>
 
   <body>
-      <h1>Google API</h1>
+      <h1>SUPERMERCADOS EN LA CAPITAL POTOSINA</h1>
       <!--codigo de navegador -->
       <section>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                         <div class="container-fluid">
-                        <a class="navbar-brand" href="#">API</a>
+                        <a class="navbar-brand" href="#">SP</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -52,13 +52,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/tesla.jpg" class="d-block w-10" alt="...">
+        <img src="img/SUPERMERCADO1.jpg" class="d-block w-10" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="img/Ferrari2.jpg" class="d-block w-20" alt="...">
+        <img src="img/SUPERMERCADO2.jpg" class="d-block w-20" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="img/Ferrari.jpg" class="d-block w-20" alt="...">
+        <img src="img/SUPERMERCADO3.jpg" class="d-block w-20" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -74,28 +74,29 @@
      <!--Fin de Carrusel-->
 
      <!--inicio de codigo de contenedores-->
-    
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <!--Caja1-->
-      <div id="caja1">
-      
-            <div class="col"style ="background:black; padding:10px">
+
+
+
+      <div class="container text-center">
+          <div class="row">
+            <div class="col">
+               <div class="col"style =" padding:10px">
               <div class="card">
                
                 <div class="card-body">
                   <form>
                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Latitud</label>
+                      <label for="text" class="form-label">Latitud</label>
                       <input type="email" class="form-control" id="latitud" aria-describedby="emailHelp">
                       
                     </div>
                     <div class="mb-3">
                       <label for="exampleInputPassword1" class="form-label">Longitud</label>
-                      <input type="password" class="form-control" id="Longitud">
+                      <input type="text" class="form-control" id="longitud">
                     </div>
 
                     
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
                   </form>
 
 
@@ -104,52 +105,47 @@
                 </div>
               </div>
             </div>
-         <!--Fin de caja1-->
-
-          <!--Caja2-->
-              <div class="col"style="width:100%;background:blueviolet; height:70%"; "padding:10px">
-                <div class="card">
-                   <!--Caja tabla sql-->
-        <div class="col" style="background:#D3D3D3">
-          <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Id</th>
-                  <th scope="col">First</th>
-                  <th scope="col">Last</th>
-                  <th scope="col">Handle</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td colspan="2">Larry the Bird</td>
-                  <td>@twitter</td>
-                </tr>
-              </tbody>
-           </table>
-        </div>
-       <!--Caja tabla sql-->
-                      <div class="card-body">
-                        <h5 class="card-title" >Mapa de Localización </h5>
-                          <p> Marzo 2023</p>
-                    </div>
-                </div>
-              </div>
             </div>
-        </div>
+            <div class="col">
+              <div class="col" style="background:#D3D3D3; padding:10px">
+                  <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Id</th>
+                          <th scope="col">First</th>
+                          <th scope="col">Last</th>
+                          <th scope="col">Handle</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Marko Polo</td>
+                          <td>Otto</td>
+                          <td>@twitter</td>
+                        </tr>
+                      </tbody>
+                   </table>
+                </div>
+            </div>
+          </div>
+
+          
+      </div>
+    
+    
 
     <!--Fin contenedores-->
       
@@ -181,8 +177,9 @@
                 center: new google.maps.LatLng(coordenadas.lat, coordenadas.lng),
                 zoom: 13,
             });
-            var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(coordenadas.lat, coordenadas.lng),
+             marker = new google.maps.Marker({
+                 position: new google.maps.LatLng(coordenadas.lat, coordenadas.lng),
+                draggable:true,
                 map: map,
                 title: 'Zona Universitaria'
             });
