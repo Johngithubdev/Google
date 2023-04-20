@@ -25,16 +25,16 @@
                                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                             </li>
                             <li>
-                                <a class="nav-link active" aria-current="page" href="#">Información</a>
+                                <a class="nav-link active" aria-current="page" href="https://www.tiendeo.mx/san-luis-potosi/hiper-supermercados">Cupones</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="https://uaslpedu.sharepoint.com/sites/DifusinEnero2023/_layouts/15/stream.aspx?id=%2Fsites%2FDifusinEnero2023%2FShared%20Documents%2FGeneral%2FRecordings%2FClase%2016%20Marzo%2D20230316%5F160527%2DGrabaci%C3%B3n%20de%20la%20reuni%C3%B3n%2Emp4" >Prueba</a>
+                                <a class="nav-link active" aria-current="page" href="https://despensa.bodegaaurrera.com.mx/?gclid=Cj0KCQjwxYOiBhC9ARIsANiEIfbp5L0wD8-pT3Dti6JDqJE4i-9qPFuCgiwxDzJYaok6DnRqUjntqAMaAtMhEALw_wcB" >Despensa en línea</a>
                             </li>
                             </ul>
-                            <form class="d-flex" role="search">
+                            <!--<form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Ir</button>
-                            </form>
+                            </form>-->
                         </div>
                         </div>
             </nav>
@@ -111,30 +111,30 @@
                   <table class="table">
                       <thead>
                         <tr>
-                          <th scope="col">Id</th>
-                          <th scope="col">First</th>
-                          <th scope="col">Last</th>
-                          <th scope="col">Handle</th>
+                          <th scope="col">#</th>
+                          <th scope="col">Empresa</th>
+                          <th scope="col">Latitud</th>
+                          <th scope="col">Longitud</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <th scope="row">1</th>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
+                          <td>Bodega Aurrera</td>
+                          <td>22.14315269</td>
+                          <td>-100.9700998</td>
                         </tr>
                         <tr>
                           <th scope="row">2</th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
-                          <td>@fat</td>
+                          <td>Bodega Aurrera</td>
+                          <td>22.19140623</td>
+                          <td>-101.0008005</td>
                         </tr>
                         <tr>
                           <th scope="row">3</th>
-                          <td>Marko Polo</td>
-                          <td>Otto</td>
-                          <td>@twitter</td>
+                          <td>Bodega Aurrera</td>
+                          <td>22.13590894</td>
+                          <td>-100.9495352</td>
                         </tr>
                       </tbody>
                    </table>
