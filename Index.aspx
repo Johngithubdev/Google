@@ -148,7 +148,13 @@
     
 
     <!--Fin contenedores-->
-      
+
+      <!--Div para base de datos -->
+      <div>
+          <asp:Gridview ID="Grid" runat ="server" AutoGenerateColumns ="true"> </asp:Gridview>
+      </div>
+
+      <!--Div para base de datos -->
     
     <!--Inicio Mapa-->
     <div id="map" style="width:100%;background:black; height:70%"; padding-top:"2%"></div>
