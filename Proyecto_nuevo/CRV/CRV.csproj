@@ -67,6 +67,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="asimg\a.mp4" />
+    <Content Include="asimg\bts.jpg" />
+    <Content Include="asimg\Ferrari.jpg" />
+    <Content Include="asimg\Ferrari2.jpg" />
+    <Content Include="asimg\Ferrari3.jpg" />
+    <Content Include="asimg\office.jpg" />
+    <Content Include="asimg\SUPERMERCADO1.jpg" />
+    <Content Include="asimg\SUPERMERCADO2.jpg" />
+    <Content Include="asimg\SUPERMERCADO3.jpg" />
+    <Content Include="asimg\tesla.jpg" />
+    <Content Include="asimg\w10.jpg" />
+    <Content Include="asimg\w11.jpeg" />
+    <Content Include="asimg\windows.jpg" />
+    <Content Include="asimg\wts.jpg" />
+    <Content Include="asimg\wxp.jpg" />
     <Content Include="PAGINAS\WebForm1.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
