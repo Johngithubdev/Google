@@ -4,38 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server"></asp:Content>
 <asp:Content ID ="Content3" ContentPlaceHolderID="body" runat="server">
     <form runat="server">
-        <!--codigo de navegador -->
-      <section>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                        <div class="container-fluid">
-                        <a class="navbar-brand" href="#">SP</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                            </li>
-                            <li>
-                                <a class="nav-link active" aria-current="page" href="https://www.tiendeo.mx/san-luis-potosi/hiper-supermercados">Cupones</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="https://despensa.bodegaaurrera.com.mx/?gclid=Cj0KCQjwxYOiBhC9ARIsANiEIfbp5L0wD8-pT3Dti6JDqJE4i-9qPFuCgiwxDzJYaok6DnRqUjntqAMaAtMhEALw_wcB" >Despensa en línea</a>
-                            </li>
-                            </ul>
-                            <!--<form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Ir</button>
-                            </form>-->
-                        </div>
-                        </div>
-            </nav>
-        </section>
-
-      <!--fin de codigo navegador-->
-
-
+        
       <!--incio de carrusel-->
 
           <div id="carouselExampleIndicators" class="carousel slide">
@@ -87,7 +56,7 @@
       <!--Div para base de datos -->
     
     <!--Inicio Mapa-->
-            <div id="map" style="width:100%;background:black; height:70%"; padding-top:"2%"></div>
+            <div id="map" style="width:1366px;background:black; height:500px"; padding-top:"2%">hola</div>
             <script>
                 const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
                 let labelIndex = 0;

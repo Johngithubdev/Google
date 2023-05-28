@@ -82,11 +82,19 @@
     <Content Include="asimg\windows.jpg" />
     <Content Include="asimg\wts.jpg" />
     <Content Include="asimg\wxp.jpg" />
+    <Content Include="PAGINAS\FORMULARIO.aspx" />
     <Content Include="PAGINAS\WebForm1.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PAGINAS\FORMULARIO.aspx.cs">
+      <DependentUpon>FORMULARIO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAGINAS\FORMULARIO.aspx.designer.cs">
+      <DependentUpon>FORMULARIO.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PAGINAS\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
