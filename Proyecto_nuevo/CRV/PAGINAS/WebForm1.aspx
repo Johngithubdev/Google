@@ -54,6 +54,39 @@
       </div>
 
       <!--Div para base de datos -->
+
+    <!--Div para cuadro de registro-->
+        <div class="col">
+           <div class="col"style =" padding:10px">
+              <div class="card">
+               
+                <div class="card-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="text" class="form-label">Nombre</label>
+                      <input type="text" class="form-control >
+                      
+                    </div>
+                    <div class="mb-3">
+                      <label for="text" class="form-label">Latitud</label>
+                      <input type="text" class="form-control" id="latitud" >
+                      
+                    </div>
+                    <div class="mb-3">
+                      <label for="text" class="form-label">Longitud</label>
+                      <input type="text" class="form-control" id="longitud">
+                    </div>
+
+                    
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+          </div>
+     <!--Fin Div para cuadro de registro-->
+
     
     <!--Inicio Mapa-->
             <div id="map" style="width:1366px;background:black; height:500px"; padding-top:"2%">hola</div>
@@ -122,7 +155,7 @@
        </Footer>
 
 
-            <p>Hola</p>
+            
        
     </form>
 </asp:Content>
